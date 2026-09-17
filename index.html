@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>DIV and SPAN Example</title>
+    <meta charset="UTF-8">
+    <title>DIV and SPAN Example</title>
 
-<style>
+    <style>
+        .container {
+            border: 2px solid blue;
+            background-color: #f0f8ff;
+            padding: 15px;
+            margin: 20px;
+        }
 
-/* Write your CSS here */
-
-</style>
-
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
 
+    <div class="container">
+        <h2>DIV Element Example</h2>
 
-/* Design your html page here */
+        <p>
+            The <strong>DIV</strong> element is a block-level container
+            used to group HTML elements.
+        </p>
+
+        <p>
+            This sentence contains a
+            <span class="highlight">SPAN element</span>
+            that highlights only a part of the text.
+        </p>
+    </div>
+
+    <div class="container">
+        <h2>Another DIV Section</h2>
+
+        <p>
+            The <span class="highlight">SPAN</span> element is an inline
+            container used to style specific words or phrases.
+        </p>
+    </div>
 
 </body>
+
 </html>
